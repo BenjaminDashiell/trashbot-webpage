@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <script src="trashbotSelection.js"></script>
+            <script src="trashbot.js"></script>
+            <link rel="stylesheet" href="trashbot.css">
+        </head>
+
+        <h1>Generated Light Novel Titles</h1>
+        <ul id="displayList">
+            <br><br><br><br><br><br>
+        </ul>
+        <br>
+        <!-- <button onclick="init()">Initalize</button> -->
+        <button onclick="randomizeNormal()">Randomize</button>
+        <button onclick="randomizeAdmin()">RandomizeAdmin</button>
+        <button onclick="clearList()">Clear List</button>
+        <br>
+        <br>
+        <hr>
+        <input type="text" id="userInput">
+        <br>
+        <br>
+        <button onclick="addUsedIndices('regular')">Pass Title ID</button>
+        <button onclick="addUsedIndices('admin')">Pass Admin ID</button>
+        <br>
+        <br>
+        <hr>
+        <button onclick="debugConsole()">Debug</button>
+    </html>
+</html>

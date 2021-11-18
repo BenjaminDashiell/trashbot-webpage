@@ -1,0 +1,40 @@
+html{
+    background-color:rgb(187, 231, 255);
+    margin: 15px 20px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+li{
+    font-size: 2em;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+button:hover {background-color: #3e8e41}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+#userInput{
+    height: 35px;
+    width: 300px;
+}
