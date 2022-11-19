@@ -19,7 +19,7 @@ const lightNovelTitles = [
     "A Dark Prince and the Evil God Only Knows Comedy",
     "The Seven Deadly Sins: An Explosion at Summer Vacation School",
     "The Dark Side of the Moon. The Demon King's Revenge",
-    "The Tale of the Sixteen-YEAR-OLD God of War",
+    "The Tale of the Sixteen-YEAR-OLD God of War Kratos",
     "In Another World as a Witch and the Strongest Gamer: So What?",
     "Potato and the Half-Maid in a Dungeon! Part 2: A Night at the Bedroom",
     "All I'll do is make you love me.",
@@ -40,9 +40,7 @@ const lightNovelTitles = [
     "A Life of the Average Magi; Part 1: How to Exist in a Fantasy World",
     "The Reincarnated Prince and the Automaton's Sword Art Online: Reborn as a Sword",
     "Eternal Life as a Clumsy Assassin, Part 2",
-    "How Does It Work?!",
     "Potato Baker-kun! School Idol Club 2nd Sword Art Online: A Promise from My School",
-    "I'll Never Let You Try to Pick Up Girls in a Dungeon!",
     "I am the strongest from Earth. My name is Princess Moonflower Village, I am the Lead Prince of the Fairy Forest. I am Reincarnated as a Mage",
     "My name is a Shimamura Shiki, I'm the Reincarnated Princess of a Different Dimension World.",
     "Is There a Dragon that Doesn't Love You? Leave me the number!",
@@ -85,6 +83,7 @@ const lightNovelTitles = [
     "Welcome to the World of Tomorrow! A magical world waiting to be explored",
     "Sleeping with a Dream: The Journey of a Mage in Another World",
     "The End of the world as I expected it.",
+    "Trash Taste: The World's Worst And Strongest Takes",
     "The Prince and the Dragon Slayer is Dead?!?!?!",
     "The Hero's Rejects the Dark Side of the Road and Lives in a Fantasy World!",
     "A New Clothes for the Girls' Night Out: The Novel",
@@ -125,41 +124,42 @@ const lightNovelTitles = [
     "The World's Strongest Swordsman"
 ]
 const adminNovelTitles = [
-    "Tom's Side Story: How the Gamer Mom Got the Game",
-    "Jake the Slave and a Sword Prince: Awakening of a Mythical Legend",
-    "Trashbotcher's Knife, Part 2",
+    "Varunjit's Side Story: How the Gamer Mom Got the Game",
+    "Peyton the Slave and a Sword Prince: Awakening of a Mythical Legend",
+    "Trashbotcher's Knife",
     "Tom is the Witch's Guide to Disaster Magic: A Tale of Ordinary Life",
     "Katelyn S-Ranked Murder with My Girlfriend: Rise Against the Machine",
     "Trashbot!?!?!?!?!?!",
     "Ben: The Bizarre Mistress of Death, Part 2: From Mistaken Hero to Hero",
     "Benetaphonia: A Brief Trip to the World's Strongest",
-    "Drake’s’tcherd",
-    "Ian's Secret, Prologue to Star Wars: The Novel, Part 1",
-    "Jake the Combat Butler: Episode 1",
+    "Varunjit’s’tcherd",
+    "Zach the Combat Butler: Episode 1",
     "Tom and the Disappearance of a Fairy",
     "Rizuka: The Story of a Failed Apprentice",
     "Ian-’s’s’s’s",
     "Franklin: A Social Media Monster Reborn II: Part 1",
     "Jake: Where Are You?!?!?!",
-    "Ian & Alice's Adventures in Wonderland! Where are the Girls!?",
-    "Rizuka's Dream: A Novel of the Wonderful World!",
+    "Peyton & Alice's Adventures in Wonderland! Where are the Girls!?",
+    "Zach's Dream: A Novel of the Wonderful World!",
     "Rizzulai: Another Side Story: An Explosion on the Verdurous Planet",
     "Franklin's Tale Against Humanity. Story of a Young Werewolf",
     "Jake the Strongest Gamer in the Universe: The Novel of the New School Idol",
     "Rizzulina of the Dead: The Last Witch",
+    "Peyton, How Does It Work?!",
     "Solymar: An Explosion on My Heart",
     "Tom Wants to Play with Your Mom!",
     "Solymar's Secret Diary of a Vampire Princess",
-    "Benjamin Button is the Strongest Gamer in the world?!?!?!",
-    "Jake's War Diary: I Became a Hero in Another World",
+    "Zack is the Strongest Gamer in the world?!?!?!",
+    "Varunjit's War Diary: I Became a Hero in Another World",
     "Franklin and the Harsh Mistress. The Strange Journey of the Unwanted Brother.",
     "Rizzulai no Kami ni Mitsuya",
     "Trashbot and the Haunted School Girl.",
-    "Solymar's Guide To Teyvat Adventures",
+    "Solymsar's Guide To Teyvat Adventures",
     "Tom and I Become the Demon Lord's Wants of Happiness",
     "Franklin: The Dark Knight Returns to a Ruined World",
+    "Varunjit Will Never Let You Try to Pick Up Girls in a Dungeon!",
     "Solymar's Magic Bullet Academy, Part 2",
-    "Katelyn's a Fool and a Bear! The Tale of the Sixteen",
+    "Zach's a Fool and a Bear! The Tale of the Sixteen",
     "Tom: An Explosion on My Way to a Friend's Diner",
     "Ben's Contract with God and His Girlfriends, which begins with the destruction of the world",
     "Katelyn’s Lover Is Not Your Mom!",
@@ -171,9 +171,9 @@ const adminNovelTitles = [
     "Benjutsu no Taisen: Master of the Labyrinth",
     "Franklin, Get Off League: The Untold Tradegy",
     "Solymar the Rascal of the Holy Land",
-    "Drake is Dead, So I Am Dead! Part 2: Reunion with Otome",
-    "Franklin's Quest for the Withering Angel",
-    "Ian: Let's Play with My Little Sister?!!"
+    "Zach is Dead, So I Am Dead! Part 2: Reunion with Otome",
+    "Varunjit's Quest for the Withering Angel",
+    "Peyton: Let's Play with My Little Sister?!!"
 ]
 
 //for storing
@@ -206,7 +206,7 @@ function randomizeNormal(){
     db.pickTitles(lightNovelTitles, 3)
 }
 function randomizeAdmin(){
-    db.pickTitles(adminNovelTitles, 3)
+    db.pickTitles(adminNovelTitles, 4)
 }
 
 // function init(){
